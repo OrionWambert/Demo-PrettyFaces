@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretty-config xmlns="http://ocpsoft.org/schema/rewrite-config-prettyfaces" 
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+               xsi:schemaLocation="http://ocpsoft.org/schema/rewrite-config-prettyfaces
+                      http://ocpsoft.org/xml/ns/prettyfaces/rewrite-config-prettyfaces.xsd">
+
+   
+    
+    <url-mapping id="page1">
+        <pattern value="/page1"/>
+        <view-id value="/xhtml/page1.xhtml"/>
+    </url-mapping>
+    
+    <url-mapping id="page2">
+        <pattern value="/page2"/>
+        <view-id value="/xhtml/page2.xhtml"/>
+    </url-mapping>
+   
+    
+</pretty-config>
